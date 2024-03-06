@@ -1,0 +1,188 @@
+@charset "UTF-8";
+body{
+    font-family: 'Noto Serif JP', serif;
+}
+.header-logo{
+width: 180px;
+margin:0 auto;
+}
+
+.nav-list{
+ display:flex;
+ justify-content: center;
+}
+
+.nav-item+.nav-item{
+margin-left:40px ;  
+}
+
+.nav-item{
+font-size: 16px;
+font-weight: bold;
+margin: 0 auto;
+}
+
+.nav-header{
+margin-top: 40px;
+}
+
+.header{
+background-color: rgb(132, 97, 126);
+padding: 40px 0 60px 0
+}
+
+.seciton-inner{
+    width: 1080px;
+    margin: 0 auto;}
+
+.kv{
+    background-color: rgb(132, 97, 126);
+    padding-bottom: 60px;
+}
+
+
+.kv-img{
+    height: 480px;
+}
+.kv-img img{
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.section-wrapper{
+    padding: 60px 0;
+}
+
+.concept{
+    color: black;
+}
+
+.concept-head{
+font-size: 24px;
+font-weight: bold;
+text-align: center;
+}
+.concept-content{
+font-size: 32px;
+font-weight: bold;
+text-align: center;
+margin-top: 40px;
+}
+.concept-content2{
+text-align: center;
+margin-top: 40px;
+}
+
+
+
+
+.item{
+    color: black;
+}
+.item-justify{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.item-img{
+    max-width: 512px;
+    width: 48%;
+}
+.shop-ttl{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.item-wrapper{
+    margin-top: 40px;
+}
+.item-ttl{
+    font-size: 20px;
+    font-weight: bold;
+}
+.item-price{
+font-size: 16px;
+font-weight: bold;
+margin-top: 25px;
+}
+.item-txt{
+    font-size: 16px;
+    font-weight: medium;
+    margin-top: 25px;
+}
+.item-btn{
+font-family:font-family: 'Noto Serif JP', serif; ;
+display: block;
+width:160px;
+border:solid;
+line-height:40px;
+border-radius:20px;
+text-align:center;
+margin-top: 25px;
+}
+.item-btn:hover{
+    color: white;
+    background-color: black;
+}
+.item-content{
+    margin-top: 40px;
+}
+
+.item-justify:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.shop-img{
+    width: 512px;
+    width: 48%;
+}
+.shop{
+    background-color: rgb(132, 97, 126);;
+}
+.shop-wrapper{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.shop-content{
+    
+}
+.shop-table{
+    width: 520px;
+}
+.shop-row{
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid black ;
+}
+.shop-ttl{
+    padding-top: 60px;
+}
+.shop-img{
+    padding: 40px 0px 60px 0px;
+}
+
+.shop-head{
+    padding: 15px 0 ;
+}
+.shop-description{
+    padding: 15px 0 ;
+}
+.footer-img{
+    width: 180px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.footer-cp{
+    text-align: center;
+    margin-top: 60px;
+    padding: ;
+}
+
+
+
+
+
+
